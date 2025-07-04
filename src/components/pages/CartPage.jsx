@@ -1,46 +1,19 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import CartItem from '@/components/molecules/CartItem'
 import Button from '@/components/atoms/Button'
 import Empty from '@/components/ui/Empty'
 import ApperIcon from '@/components/ApperIcon'
+import { useCart } from '@/hooks/useCart'
 
 const CartPage = () => {
-  const [cartItems, setCartItems] = useState([
-    {
-      Id: 1,
-      name: "Organic Quinoa Bowl",
-      price: 12.99,
-      quantity: 2,
-      images: ["https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"]
-    },
-    {
-      Id: 2,
-      name: "Cold-Pressed Green Juice",
-      price: 8.99,
-      quantity: 1,
-      images: ["https://images.unsplash.com/photo-1610970881699-44a5587cabec?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"]
-    },
-    {
-      Id: 3,
-      name: "Organic Almond Butter",
-      price: 15.99,
-      quantity: 1,
-      images: ["https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"]
-    }
-  ])
-  
-  const handleUpdateQuantity = (id, newQuantity) => {
-    setCartItems(items =>
-      items.map(item =>
-        item.Id === id ? { ...item, quantity: newQuantity } : item
-      )
-    )
+  const { cartItems, updateQuantity, removeFromCart } = useCart()
+const handleUpdateQuantity = (id, newQuantity) => {
+    updateQuantity(id, newQuantity)
   }
   
   const handleRemoveItem = (id) => {
-    setCartItems(items => items.filter(item => item.Id !== id))
+    removeFromCart(id)
   }
   
   const subtotal = cartItems.reduce((sum, item) => sum + (item.price * item.quantity), 0)

@@ -39,10 +39,16 @@ const Hero = () => {
                 <Button variant="accent" size="large" icon="ShoppingBag">
                   Shop Now
                 </Button>
-              </Link>
-              <Button variant="outline" size="large" icon="Play">
-                Watch Our Story
-              </Button>
+</Link>
+              <a 
+                href="https://youtu.be/t5nhl3m2nPg?si=QR2ktLkwAKNEH77n" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline" size="large" icon="Play">
+                  Watch Our Story
+                </Button>
+              </a>
             </div>
             
             {/* Trust Indicators */}

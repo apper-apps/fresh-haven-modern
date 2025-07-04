@@ -7,10 +7,12 @@ import Badge from '@/components/atoms/Badge'
 import Loading from '@/components/ui/Loading'
 import Error from '@/components/ui/Error'
 import { productService } from '@/services/api/productService'
+import { useCart } from '@/hooks/useCart'
 import { toast } from 'react-toastify'
 
 const ProductDetailPage = () => {
   const { id } = useParams()
+  const { addToCart } = useCart()
   const [product, setProduct] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -34,7 +36,8 @@ const ProductDetailPage = () => {
     loadProduct()
   }, [id])
   
-  const handleAddToCart = () => {
+const handleAddToCart = () => {
+    addToCart(product, quantity)
     toast.success(`${quantity} ${product.name} added to cart!`)
   }
   

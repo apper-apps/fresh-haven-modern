@@ -5,10 +5,12 @@ import ApperIcon from '@/components/ApperIcon'
 import SearchBar from '@/components/molecules/SearchBar'
 import Button from '@/components/atoms/Button'
 import Badge from '@/components/atoms/Badge'
+import { useCart } from '@/hooks/useCart'
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-  const [cartCount] = useState(3) // Mock cart count
+  const { getCartCount } = useCart()
+  const cartCount = getCartCount()
   const location = useLocation()
   
   const navItems = [
