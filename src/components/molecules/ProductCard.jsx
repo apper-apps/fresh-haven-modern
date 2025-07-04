@@ -5,8 +5,10 @@ import ApperIcon from '@/components/ApperIcon'
 import Button from '@/components/atoms/Button'
 import Badge from '@/components/atoms/Badge'
 import { toast } from 'react-toastify'
+import { useCart } from '@/hooks/useCart'
 
 function ProductCard({ product }) {
+  const { addToCart } = useCart()
   const [imageLoaded, setImageLoaded] = useState(false)
   const [imageError, setImageError] = useState(false)
   const [retryCount, setRetryCount] = useState(0)
@@ -16,7 +18,7 @@ function ProductCard({ product }) {
     e.preventDefault()
     e.stopPropagation()
     
-    // Add to cart logic here
+    addToCart(product, 1)
     toast.success(`${product.name} added to cart!`)
   }
 
