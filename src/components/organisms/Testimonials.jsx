@@ -38,11 +38,11 @@ const Testimonials = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl lg:text-4xl font-display font-bold text-text-primary mb-4">
-            What Our Customers Say
+<h2 className="text-3xl lg:text-4xl font-display font-bold text-text-primary mb-4">
+            Wellness Transformation Stories
           </h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            Join thousands of satisfied customers who have transformed their health with Fresh Haven
+            Discover how our community has embraced healthier lifestyles through premium organic nutrition and wellness support
           </p>
         </motion.div>
         

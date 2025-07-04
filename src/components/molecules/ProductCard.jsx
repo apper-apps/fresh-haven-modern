@@ -124,9 +124,9 @@ function ProductCard({ product }) {
           )}
         </div>
         
-        <div className="p-4">
-          <div className="flex items-center justify-between mb-2">
-            <span className="text-sm font-medium text-secondary bg-secondary/10 px-2 py-1 rounded-organic">
+<div className="p-4">
+          <div className="flex items-center justify-between mb-3">
+            <span className="text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-organic">
               {product.category}
             </span>
             <div className="flex items-center gap-1">
@@ -139,6 +139,25 @@ function ProductCard({ product }) {
               </span>
             </div>
           </div>
+
+          {/* Wellness Indicators */}
+          <div className="flex flex-wrap gap-1 mb-3">
+            {product.isOrganic && (
+              <span className="text-xs bg-success/10 text-success px-2 py-1 rounded-organic">
+                🌱 Organic
+              </span>
+            )}
+            {product.isVegan && (
+              <span className="text-xs bg-secondary/10 text-secondary px-2 py-1 rounded-organic">
+                🌿 Vegan
+              </span>
+            )}
+            {product.isGlutenFree && (
+              <span className="text-xs bg-accent/10 text-accent px-2 py-1 rounded-organic">
+                ✨ Gluten-Free
+              </span>
+            )}
+          </div>
           
           <h3 className="text-lg font-display font-semibold text-text-primary mb-2 line-clamp-2">
             {product.name}
@@ -150,7 +169,7 @@ function ProductCard({ product }) {
           
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
-              <span className="text-xl font-bold text-text-primary">
+              <span className="text-xl font-bold text-primary">
                 ${product.price}
               </span>
               {product.originalPrice && (

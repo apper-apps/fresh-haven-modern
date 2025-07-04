@@ -34,13 +34,13 @@ const Newsletter = () => {
             <ApperIcon name="Mail" size={32} className="text-white" />
           </div>
           
-          <h2 className="text-3xl lg:text-4xl font-display font-bold mb-4">
-            Stay Fresh with Our Newsletter
+<h2 className="text-3xl lg:text-4xl font-display font-bold mb-4">
+            Join Our Wellness Community
           </h2>
           
           <p className="text-lg text-white/90 mb-8">
-            Get weekly updates on new products, exclusive offers, and healthy living tips 
-            delivered straight to your inbox.
+            Receive weekly nutrition tips, exclusive wellness recipes, and early access to our 
+            newest organic products. Your journey to better health starts here.
           </p>
           
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">

@@ -5,14 +5,14 @@ import Button from '@/components/atoms/Button'
 
 const Hero = () => {
   return (
-    <section className="relative bg-hero-gradient overflow-hidden">
-      <div className="absolute inset-0 bg-black/20"></div>
+<section className="relative bg-hero-gradient overflow-hidden min-h-[90vh] flex items-center">
+      <div className="absolute inset-0 bg-black/15"></div>
       
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 left-10 w-20 h-20 bg-white rounded-full"></div>
-        <div className="absolute top-1/2 right-20 w-32 h-32 bg-white rounded-full"></div>
-        <div className="absolute bottom-20 left-1/4 w-16 h-16 bg-white rounded-full"></div>
+        <div className="absolute top-10 left-10 w-20 h-20 bg-white rounded-full animate-pulse"></div>
+        <div className="absolute top-1/2 right-20 w-32 h-32 bg-white rounded-full animate-pulse delay-1000"></div>
+        <div className="absolute bottom-20 left-1/4 w-16 h-16 bg-white rounded-full animate-pulse delay-2000"></div>
       </div>
       
       <div className="container mx-auto px-4 py-20 lg:py-32 relative z-10">
@@ -24,14 +24,14 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-4xl lg:text-6xl font-display font-bold mb-6 leading-tight">
-              Fresh, Healthy Foods 
-              <span className="block text-secondary">Delivered Daily</span>
+<h1 className="text-4xl lg:text-6xl font-display font-bold mb-6 leading-tight">
+              Nourish Your Body, 
+              <span className="block text-secondary">Fuel Your Wellness</span>
             </h1>
             
             <p className="text-lg lg:text-xl text-white/90 mb-8 leading-relaxed">
-              Discover the finest organic produce, superfoods, and wellness products 
-              from trusted local vendors. Your journey to better health starts here.
+              From protein-packed soya tikkis to colorful superfood salads, discover premium organic foods 
+              that support your healthy lifestyle. Every bite is a step towards better wellness.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -70,10 +70,10 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="relative z-10">
-              <img 
-                src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-                alt="Fresh organic vegetables"
-                className="w-full h-auto rounded-2xl shadow-2xl"
+<img 
+                src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                alt="Healthy superfood bowl with organic vegetables and protein"
+                className="w-full h-auto rounded-2xl shadow-2xl hover:shadow-wellness transition-shadow duration-300"
               />
               
               {/* Floating Cards */}

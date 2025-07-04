@@ -12,14 +12,14 @@ const Button = ({
   onClick,
   ...props 
 }) => {
-  const baseClasses = "inline-flex items-center justify-center font-medium rounded-organic transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2"
+const baseClasses = "inline-flex items-center justify-center font-medium rounded-organic transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 hover:shadow-wellness"
   
   const variants = {
-    primary: "bg-primary text-white hover:scale-105 focus:ring-primary shadow-organic hover:shadow-organic-hover",
-    secondary: "bg-secondary text-white hover:scale-105 focus:ring-secondary shadow-organic hover:shadow-organic-hover",
-    accent: "bg-accent text-white hover:scale-105 focus:ring-accent shadow-organic hover:shadow-organic-hover",
-    outline: "border-2 border-primary text-primary hover:bg-primary hover:text-white focus:ring-primary",
-    ghost: "text-primary hover:bg-primary/10 focus:ring-primary"
+    primary: "bg-primary text-white hover:scale-105 hover:bg-primary/90 focus:ring-primary shadow-organic hover:shadow-organic-hover",
+    secondary: "bg-secondary text-white hover:scale-105 hover:bg-secondary/90 focus:ring-secondary shadow-organic hover:shadow-organic-hover",
+    accent: "bg-accent text-white hover:scale-105 hover:bg-accent/90 focus:ring-accent shadow-organic hover:shadow-organic-hover",
+    outline: "border-2 border-primary text-primary hover:bg-primary hover:text-white hover:scale-105 focus:ring-primary transition-all duration-300",
+    ghost: "text-primary hover:bg-primary/10 hover:scale-105 focus:ring-primary"
   }
   
   const sizes = {

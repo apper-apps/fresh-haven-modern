@@ -77,11 +77,11 @@ const FeaturedProducts = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl lg:text-4xl font-display font-bold text-text-primary mb-4">
-            Featured Products
+<h2 className="text-3xl lg:text-4xl font-display font-bold text-text-primary mb-4">
+            Wellness Essentials
           </h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            Handpicked selections from our premium collection of organic and healthy foods
+            Discover our top-rated organic superfoods and protein-rich meals, carefully selected to fuel your healthy lifestyle
           </p>
         </motion.div>
         

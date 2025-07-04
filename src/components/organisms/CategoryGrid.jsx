@@ -2,22 +2,24 @@ import { motion } from 'framer-motion'
 import CategoryCard from '@/components/molecules/CategoryCard'
 
 const CategoryGrid = () => {
-  const categories = [
+const categories = [
     {
       id: 1,
       name: 'Superfoods',
       slug: 'superfoods',
       image: 'https://images.unsplash.com/photo-1517482371087-707b3a6c4b79?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
       icon: 'Zap',
-      count: 45
+      count: 45,
+      description: 'Nutrient-dense foods for optimal health'
     },
     {
       id: 2,
-      name: 'Vegan Snacks',
-      slug: 'vegan-snacks',
-      image: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
-      icon: 'Leaf',
-      count: 32
+      name: 'High-Protein Meals',
+      slug: 'high-protein-meals',
+      image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      icon: 'Dumbbell',
+      count: 38,
+      description: 'Soya tikkis, grilled chicken & protein bowls'
     },
     {
       id: 3,
@@ -25,31 +27,35 @@ const CategoryGrid = () => {
       slug: 'cold-pressed-juices',
       image: 'https://images.unsplash.com/photo-1610970881699-44a5587cabec?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
       icon: 'Droplet',
-      count: 28
+      count: 28,
+      description: 'Fresh-pressed wellness elixirs'
     },
     {
       id: 4,
+      name: 'Colorful Salads',
+      slug: 'colorful-salads',
+      image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      icon: 'Leaf',
+      count: 45,
+      description: 'Vibrant, nutrient-packed salad bowls'
+    },
+    {
+      id: 5,
+      name: 'Healthy Snacks',
+      slug: 'healthy-snacks',
+      image: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      icon: 'Cookie',
+      count: 52,
+      description: 'Ragi dhokla, healthy chaps & more'
+    },
+    {
+      id: 6,
       name: 'Organic Produce',
       slug: 'organic-produce',
       image: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
       icon: 'Apple',
-      count: 67
-    },
-    {
-      id: 5,
-      name: 'Protein & Supplements',
-      slug: 'protein-supplements',
-      image: 'https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
-      icon: 'Dumbbell',
-      count: 23
-    },
-    {
-      id: 6,
-      name: 'Healthy Snacks',
-      slug: 'healthy-snacks',
-      image: 'https://images.unsplash.com/photo-1517391043392-9b45cc8b2505?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
-      icon: 'Cookie',
-      count: 41
+      count: 67,
+      description: 'Farm-fresh organic fruits & vegetables'
     }
   ]
   
@@ -62,11 +68,11 @@ const CategoryGrid = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl lg:text-4xl font-display font-bold text-text-primary mb-4">
-            Shop by Category
+<h2 className="text-3xl lg:text-4xl font-display font-bold text-text-primary mb-4">
+            Wellness Categories
           </h2>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            Discover our carefully curated selection of fresh, organic, and healthy products
+            Explore our thoughtfully curated categories designed to nourish your body and support your wellness journey
           </p>
         </motion.div>
         

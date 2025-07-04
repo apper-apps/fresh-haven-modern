@@ -43,13 +43,14 @@ const Footer = () => {
                 <ApperIcon name="Leaf" size={24} className="text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-display font-bold">Fresh Haven</h3>
-                <p className="text-sm text-white/80">Healthy Food Marketplace</p>
+<h3 className="text-xl font-display font-bold">Fresh Haven</h3>
+                <p className="text-sm text-white/80">Wellness & Nutrition</p>
               </div>
             </div>
             <p className="text-white/80 mb-6 leading-relaxed">
-              Your trusted partner for organic, fresh, and healthy foods. 
-              We connect you with the best local vendors and sustainable producers.
+              Your trusted wellness partner for premium organic foods and nutrition. 
+              We're committed to supporting your healthy lifestyle with carefully sourced, 
+              nutrient-dense products that nourish your body and soul.
             </p>
             <div className="flex items-center gap-4">
               {socialLinks.map(social => (

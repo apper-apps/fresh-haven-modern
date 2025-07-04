@@ -33,10 +33,10 @@ const Header = () => {
               <ApperIcon name="Leaf" size={24} className="text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-display font-bold text-gradient">
+<h1 className="text-xl font-display font-bold text-gradient">
                 Fresh Haven
               </h1>
-              <p className="text-xs text-text-secondary">Healthy Food Marketplace</p>
+              <p className="text-xs text-text-secondary">Wellness & Nutrition</p>
             </div>
           </Link>
           
