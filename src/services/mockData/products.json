@@ -1,0 +1,319 @@
+[
+  {
+    "Id": 1,
+    "name": "Organic Quinoa Super Bowl",
+    "category": "Superfoods",
+    "price": 12.99,
+    "originalPrice": 15.99,
+    "images": [
+      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Nutrient-dense quinoa bowl packed with organic vegetables, nuts, and seeds. Perfect for a healthy lunch or dinner.",
+    "stock": 25,
+    "rating": 4.8,
+    "reviewCount": 124,
+    "isOrganic": true,
+    "isVegan": true,
+    "isGlutenFree": true,
+    "dietary": ["Organic", "Vegan", "Gluten-Free"],
+    "nutrition": {
+      "calories": "420",
+      "protein": "18g",
+      "carbs": "65g",
+      "fat": "12g",
+      "fiber": "8g"
+    },
+    "sellerId": "seller1",
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Cold-Pressed Green Juice",
+    "category": "Cold-Pressed Juices",
+    "price": 8.99,
+    "images": [
+      "https://images.unsplash.com/photo-1610970881699-44a5587cabec?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Fresh cold-pressed juice made from organic kale, spinach, cucumber, apple, and lemon. Bursting with vitamins and minerals.",
+    "stock": 18,
+    "rating": 4.6,
+    "reviewCount": 89,
+    "isOrganic": true,
+    "isVegan": true,
+    "dietary": ["Organic", "Vegan", "Raw"],
+    "nutrition": {
+      "calories": "120",
+      "protein": "4g",
+      "carbs": "28g",
+      "fat": "1g",
+      "fiber": "2g"
+    },
+    "sellerId": "seller2",
+    "createdAt": "2024-01-18T14:20:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Raw Almond Butter",
+    "category": "Vegan Snacks",
+    "price": 15.99,
+    "images": [
+      "https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Creamy raw almond butter made from premium organic almonds. No added sugars or oils - just pure, natural goodness.",
+    "stock": 12,
+    "rating": 4.9,
+    "reviewCount": 156,
+    "isOrganic": true,
+    "isVegan": true,
+    "dietary": ["Organic", "Vegan", "Keto", "Paleo"],
+    "nutrition": {
+      "calories": "190",
+      "protein": "7g",
+      "carbs": "6g",
+      "fat": "17g",
+      "fiber": "3g"
+    },
+    "sellerId": "seller1",
+    "createdAt": "2024-01-20T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Organic Chia Seeds",
+    "category": "Superfoods",
+    "price": 9.99,
+    "images": [
+      "https://images.unsplash.com/photo-1517482371087-707b3a6c4b79?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1589281243741-e26c2a4e30e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Premium organic chia seeds packed with omega-3 fatty acids, fiber, and protein. Perfect for smoothies, puddings, and baking.",
+    "stock": 35,
+    "rating": 4.7,
+    "reviewCount": 203,
+    "isOrganic": true,
+    "isVegan": true,
+    "isGlutenFree": true,
+    "dietary": ["Organic", "Vegan", "Gluten-Free", "Raw"],
+    "nutrition": {
+      "calories": "140",
+      "protein": "5g",
+      "carbs": "12g",
+      "fat": "9g",
+      "fiber": "10g"
+    },
+    "sellerId": "seller3",
+    "createdAt": "2024-01-22T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "Coconut Energy Balls",
+    "category": "Vegan Snacks",
+    "price": 11.99,
+    "images": [
+      "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1517391043392-9b45cc8b2505?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Delicious energy balls made with organic coconut, dates, and nuts. The perfect healthy snack for on-the-go energy.",
+    "stock": 22,
+    "rating": 4.5,
+    "reviewCount": 78,
+    "isOrganic": true,
+    "isVegan": true,
+    "dietary": ["Organic", "Vegan", "Gluten-Free"],
+    "nutrition": {
+      "calories": "180",
+      "protein": "5g",
+      "carbs": "18g",
+      "fat": "11g",
+      "fiber": "4g"
+    },
+    "sellerId": "seller2",
+    "createdAt": "2024-01-25T11:30:00Z"
+  },
+  {
+    "Id": 6,
+    "name": "Organic Turmeric Latte Mix",
+    "category": "Superfoods",
+    "price": 16.99,
+    "images": [
+      "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Golden turmeric latte mix with organic spices and coconut milk powder. Anti-inflammatory and deliciously warming.",
+    "stock": 28,
+    "rating": 4.8,
+    "reviewCount": 145,
+    "isOrganic": true,
+    "isVegan": true,
+    "dietary": ["Organic", "Vegan", "Keto"],
+    "nutrition": {
+      "calories": "80",
+      "protein": "2g",
+      "carbs": "8g",
+      "fat": "5g",
+      "fiber": "1g"
+    },
+    "sellerId": "seller1",
+    "createdAt": "2024-01-28T13:20:00Z"
+  },
+  {
+    "Id": 7,
+    "name": "Fresh Organic Spinach",
+    "category": "Organic Produce",
+    "price": 4.99,
+    "images": [
+      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Fresh organic baby spinach leaves, perfect for salads, smoothies, and cooking. Packed with iron and vitamins.",
+    "stock": 15,
+    "rating": 4.6,
+    "reviewCount": 67,
+    "isOrganic": true,
+    "isVegan": true,
+    "dietary": ["Organic", "Vegan", "Raw"],
+    "nutrition": {
+      "calories": "25",
+      "protein": "3g",
+      "carbs": "4g",
+      "fat": "0g",
+      "fiber": "2g"
+    },
+    "sellerId": "seller3",
+    "createdAt": "2024-02-01T08:45:00Z"
+  },
+  {
+    "Id": 8,
+    "name": "Plant-Based Protein Powder",
+    "category": "Protein & Supplements",
+    "price": 29.99,
+    "originalPrice": 34.99,
+    "images": [
+      "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "High-quality plant-based protein powder made from pea, hemp, and brown rice protein. Vanilla flavor, naturally sweetened.",
+    "stock": 20,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "isOrganic": true,
+    "isVegan": true,
+    "dietary": ["Organic", "Vegan", "Gluten-Free"],
+    "nutrition": {
+      "calories": "120",
+      "protein": "25g",
+      "carbs": "3g",
+      "fat": "2g",
+      "fiber": "1g"
+    },
+    "sellerId": "seller2",
+    "createdAt": "2024-02-03T15:10:00Z"
+  },
+  {
+    "Id": 9,
+    "name": "Organic Avocados",
+    "category": "Organic Produce",
+    "price": 7.99,
+    "images": [
+      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Fresh organic avocados, perfectly ripe and ready to eat. Rich in healthy fats and fiber. Pack of 4.",
+    "stock": 30,
+    "rating": 4.4,
+    "reviewCount": 98,
+    "isOrganic": true,
+    "isVegan": true,
+    "dietary": ["Organic", "Vegan", "Keto", "Paleo"],
+    "nutrition": {
+      "calories": "320",
+      "protein": "4g",
+      "carbs": "17g",
+      "fat": "29g",
+      "fiber": "13g"
+    },
+    "sellerId": "seller3",
+    "createdAt": "2024-02-05T10:25:00Z"
+  },
+  {
+    "Id": 10,
+    "name": "Acai Berry Smoothie Pack",
+    "category": "Cold-Pressed Juices",
+    "price": 13.99,
+    "images": [
+      "https://images.unsplash.com/photo-1610970881699-44a5587cabec?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Frozen acai berry smoothie packs with organic fruits. Just blend and enjoy this antioxidant-rich superfood bowl.",
+    "stock": 16,
+    "rating": 4.9,
+    "reviewCount": 187,
+    "isOrganic": true,
+    "isVegan": true,
+    "dietary": ["Organic", "Vegan", "Raw"],
+    "nutrition": {
+      "calories": "200",
+      "protein": "3g",
+      "carbs": "45g",
+      "fat": "5g",
+      "fiber": "8g"
+    },
+    "sellerId": "seller1",
+    "createdAt": "2024-02-08T12:40:00Z"
+  },
+  {
+    "Id": 11,
+    "name": "Organic Matcha Powder",
+    "category": "Superfoods",
+    "price": 24.99,
+    "images": [
+      "https://images.unsplash.com/photo-1517482371087-707b3a6c4b79?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1589281243741-e26c2a4e30e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Premium ceremonial grade organic matcha powder. Rich in antioxidants and provides sustained energy without jitters.",
+    "stock": 14,
+    "rating": 4.8,
+    "reviewCount": 176,
+    "isOrganic": true,
+    "isVegan": true,
+    "dietary": ["Organic", "Vegan", "Raw"],
+    "nutrition": {
+      "calories": "35",
+      "protein": "2g",
+      "carbs": "5g",
+      "fat": "0g",
+      "fiber": "2g"
+    },
+    "sellerId": "seller2",
+    "createdAt": "2024-02-10T14:55:00Z"
+  },
+  {
+    "Id": 12,
+    "name": "Kale Chips Variety Pack",
+    "category": "Healthy Snacks",
+    "price": 8.99,
+    "images": [
+      "https://images.unsplash.com/photo-1517391043392-9b45cc8b2505?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Crispy baked kale chips in three flavors: Sea Salt, Nutritional Yeast, and Spicy Chili. A healthy alternative to potato chips.",
+    "stock": 25,
+    "rating": 4.3,
+    "reviewCount": 92,
+    "isOrganic": true,
+    "isVegan": true,
+    "isGlutenFree": true,
+    "dietary": ["Organic", "Vegan", "Gluten-Free", "Raw"],
+    "nutrition": {
+      "calories": "150",
+      "protein": "6g",
+      "carbs": "15g",
+      "fat": "8g",
+      "fiber": "5g"
+    },
+    "sellerId": "seller3",
+    "createdAt": "2024-02-12T09:30:00Z"
+  }
+]
